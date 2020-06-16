@@ -1,0 +1,153 @@
+[
+{
+    "type": "header",
+    "version": "4.8.3",
+    "comment": "Export to JSON plugin for PHPMyAdmin"
+},
+{
+    "type": "database",
+    "name": "foodshala"
+},
+{
+    "type": "table",
+    "name": "menu",
+    "database": "foodshala",
+    "data": 
+[
+{
+    "itemId": "1",
+    "itemName": "Veg Burger",
+    "itemDescription": "Burger that is Veg",
+    "itemRestaurantId": "3",
+    "itemPreference": "Veg"
+},
+{
+    "itemId": "2",
+    "itemName": "Veg Pizza",
+    "itemDescription": "Pizza that is veg",
+    "itemRestaurantId": "3",
+    "itemPreference": "Veg"
+},
+{
+    "itemId": "3",
+    "itemName": "Veg Pasta",
+    "itemDescription": "Pasta that is veg",
+    "itemRestaurantId": "4",
+    "itemPreference": "Veg"
+},
+{
+    "itemId": "4",
+    "itemName": "Non-veg Burger",
+    "itemDescription": "Burger that is non-veg",
+    "itemRestaurantId": "4",
+    "itemPreference": "NonVeg"
+},
+{
+    "itemId": "5",
+    "itemName": "Non Veg Pizza",
+    "itemDescription": "Pizza that is non veg",
+    "itemRestaurantId": "4",
+    "itemPreference": "NonVeg"
+},
+{
+    "itemId": "6",
+    "itemName": "Non-veg Pasta",
+    "itemDescription": "Pasta that is non Veg",
+    "itemRestaurantId": "3",
+    "itemPreference": "NonVeg"
+},
+{
+    "itemId": "7",
+    "itemName": "Veg Newie",
+    "itemDescription": "Newie that is veg",
+    "itemRestaurantId": "3",
+    "itemPreference": "Veg"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "orders",
+    "database": "foodshala",
+    "data": 
+[
+{
+    "orderId": "1",
+    "customerId": "2",
+    "itemId": "2"
+},
+{
+    "orderId": "2",
+    "customerId": "7",
+    "itemId": "7"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "users",
+    "database": "foodshala",
+    "data": 
+[
+{
+    "userId": "1",
+    "userName": "Test Customer Veg",
+    "userType": "Customer",
+    "userEmail": "customerveg@test.com",
+    "userPassword": "customer",
+    "userPreference": "Veg"
+},
+{
+    "userId": "2",
+    "userName": "Test Customer Non-veg",
+    "userType": "Customer",
+    "userEmail": "customernonveg@test.com",
+    "userPassword": "customer",
+    "userPreference": "NonVeg"
+},
+{
+    "userId": "3",
+    "userName": "Test Restaurant",
+    "userType": "Restaurant",
+    "userEmail": "restaurant@test.com",
+    "userPassword": "restaurant",
+    "userPreference": null
+},
+{
+    "userId": "4",
+    "userName": "Test Restaurant 2",
+    "userType": "Restaurant",
+    "userEmail": "restaurant2@test.com",
+    "userPassword": "restaurant",
+    "userPreference": null
+},
+{
+    "userId": "5",
+    "userName": "Sign up Test Restaurant",
+    "userType": "Restaurant",
+    "userEmail": "signuprestaurant@test.com",
+    "userPassword": "12345678",
+    "userPreference": null
+},
+{
+    "userId": "6",
+    "userName": "Sign up Test Customer",
+    "userType": "Customer",
+    "userEmail": "signupcustomer@test.com",
+    "userPassword": "12345678",
+    "userPreference": "Veg"
+},
+{
+    "userId": "7",
+    "userName": "Sign up Test Customer 2",
+    "userType": "Customer",
+    "userEmail": "signupcustomer2@test.com",
+    "userPassword": "12345678",
+    "userPreference": "NonVeg"
+}
+]
+
+}
+]
